@@ -16,14 +16,14 @@ We use Cleverhans to perform Fast Gradient Attack.
 
 ### Backward Pass Differentiable Approximation (BPDA)
 
-'''
+```
 python src/run_all_bpda.py
-'''
+```
 
 ### Filtered Gradient Attack
 
-'''
+```
 python src/run_all_fga.py
-'''
+```
 
 
