@@ -12,7 +12,20 @@ Code to reproduce results in the paper [Defending against Adversarial Images usi
 
 We use Cleverhans to perform Fast Gradient Attack. 
 
+## Gray-box attack 
+
+Set self.setting = 'graybox' and run:
+
+```
+python run_all.py
+```
+
+You can modify which defense/attack methods to use by changing self.defense_list and self.attack_list in config.py.
+
+
 ## White-box attack
+
+Set self.setting = 'whitebox'
 
 ### Backward Pass Differentiable Approximation (BPDA)
 
@@ -21,6 +34,8 @@ python src/run_all_bpda.py
 ```
 
 ### Filtered Gradient Attack
+
+Set self.attack_list = ['FGA'] and run:
 
 ```
 python src/run_all_fga.py
