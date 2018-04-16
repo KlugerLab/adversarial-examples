@@ -23,6 +23,15 @@ python run_all.py
 You can modify which defense/attack methods to use by changing self.defense_list and self.attack_list in config.py.
 
 
+## Black-box attack 
+
+Set self.setting = 'blackbox' and run:
+
+```
+python run_all.py
+```
+
+
 ## White-box attack
 
 Set self.setting = 'whitebox'
